@@ -20,4 +20,6 @@ Route::group(['middleware' => ['web', 'auth']] ,function(){
         return redirect('/');
     });
     Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/', 'TweetController@getall');
 });
+Route::post('post-tweet', 'TweetController@create');

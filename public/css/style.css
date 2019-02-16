@@ -1,0 +1,53 @@
+body {
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+.ctn-create-tweet {
+    background-color: rgba(29, 161, 242, 0.10);
+    border: 1px solid #1da1f2;
+}
+
+.btn_blue_principal {
+    background-color: #1da1f2;
+    color: white;
+    font-weight: bold;
+}
+
+.tweet {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
+}
+
+.icon_profile {
+    width: 9%;
+}
+
+.icon_profile img {
+    width: 100%;
+}
+
+.content-tweet {
+    width: 90%;
+}
+
+.txt-tweet {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-tweet span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.diff_human {
+    font-size: 1em !important;
+    font-style: italic;
+}
+
+.content-tweet img {
+    width: 100%;
+}
