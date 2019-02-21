@@ -19,6 +19,8 @@ class TweetController extends Controller
         $tweet->user_id = $data['user_id'];
         $tweet->save();
         return redirect('/');
+
+
     }
 
     public function getall(Tweet $tweet, User $user)

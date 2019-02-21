@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
     font-size: 12px;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 .ctn-create-tweet {
@@ -50,4 +51,19 @@ body {
 
 .content-tweet img {
     width: 100%;
+}
+
+.ctn-buttons {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.ctn-buttons .custom-file {
+    margin-left: 10px;
+}
+
+.logo_twitter {
+    width: 50px;
 }
