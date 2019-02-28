@@ -21,9 +21,10 @@ Route::group(['middleware' => ['web', 'auth']] ,function(){
     });
     Route::get('/', 'HomeController@index')->name('home');
     Route::get('/', 'TweetController@getall');
+    //Profile username
     Route::get('/profile/{name}', 'HomeController@viewProfile');
-
+    //Page tout les utilisateurs
     Route::get('/users', 'HomeController@getAllUsers');
     Route::get('/users/{username}', 'HomeController@getUser');
 });
-Route::post('post-tweet', 'TweetController@create');
+Route::post('/post-tweet', 'TweetController@create');
